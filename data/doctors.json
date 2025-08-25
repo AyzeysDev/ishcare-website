@@ -1,0 +1,227 @@
+{
+  "clinic_contact": {
+    "phone": "02 4250 4355",
+    "fax": "02 4201 0630",
+    "email": "info@ishcare.com.au"
+  },
+  "doctors": [
+    {
+      "name": "Dr Sundhar Rajan Balu",
+      "speciality": "Consultant Geriatrician",
+      "practitioner_type": "Doctor",
+      "bio": "A specialist in Geriatric Medicine serving the Illawarra community with a holistic approach that focuses on the individual person. Dr Balu believes in being compassionate and empathetic, emphasizing patient education as a vital part of wellness. He works to build trust and rapport with patients and their families through open communication to make joint, informed decisions for long-term management.",
+      "education": [
+        {
+          "degree": "MBBS",
+          "institution": "The Tamilnadu Dr. MGR Medical University, Chennai, India"
+        },
+        {
+          "degree": "FRACP (Geriatric Medicine)",
+          "institution": "Royal Australasian College of Physicians, Sydney"
+        },
+        {
+          "degree": "Perioperative Medicine Certificate course",
+          "institution": "Monash University, Melbourne"
+        }
+      ],
+      "special_interests": [
+        "Medical and Surgical management plans",
+        "Advocacy to patients and families",
+        "Perioperative Medicine - Pre, peri and postoperative management of elderly people going for surgery"
+      ],
+      "expertise_in": [
+        "Driving assessment",
+        "Cognitive Assessment",
+        "Capacity Assessment",
+        "Management of Polypharmacy",
+        "Telehealth Consultation",
+        "Comprehensive Geriatric Assessment",
+        "Falls Assessment and Management",
+        "Dementia Assessment and Management",
+        "Chronic Disease Management with multiple Disease Comorbidities",
+        "Behaviour management associated with Dementia"
+      ],
+      "professional_affiliations": [
+        "Royal Australian College of Physicians (RACP)",
+        "Australian Medical Association (AMA)",
+        "Australian & New Zealand Society for Geriatric Medicine (ANZSGM)"
+      ],
+      "practice_info": {
+        "hospital_admissions": [
+          "Wollongong Private Hospital",
+          "Shellharbour Private Hospital",
+          "Figtree Private Hospital"
+        ],
+        "residential_aged_care_visits": "Available on request"
+      },
+      "languages": []
+    },
+    {
+      "name": "Dr Jonathan Wright",
+      "speciality": "Rheumatologist",
+      "practitioner_type": "Doctor",
+      "bio": "Dr Jonathan Wright is our new Rheumatologist, he has open books to see new patients with a referral from their GP. He specialises in Rheumatology and has a broad range of interests in the field such as inflammatory arthritis, Rheumatoid arthritis, Psoriatic arthritis and Ankylosing spondylitis and crystal arthropathies (including gout and CPPD).",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr Dhanya Sanjeev",
+      "speciality": "Endocrinologist",
+      "practitioner_type": "Doctor",
+      "bio": "Dr Dhanya Sanjeev is a highly skilled and dedicated endocrinologist who is currently based in Wollongong. She has earned a stellar reputation for her expertise in managing a wide range of endocrine disorders including pituitary, adrenal, thyroid, parathyroid and bone disorders, and diabetes. Dr. Sanjeev's commitment to patient care and her passion for endocrinology make her a valuable addition to the healthcare landscape in the region.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr. Roli Vatss",
+      "speciality": "Paediatrician",
+      "practitioner_type": "Doctor",
+      "bio": "Dr. Roli Vatss is a Paediatrician with 14 years of experience in Paediatrics and Neonatology. Dr Vatss is passionate about working with kids with Neurodiversity. She is certified to do Austism assessments.",
+      "education": [
+        {
+          "degree": "Fellowship of the Royal Australasian college of Physicians",
+          "institution": "The Royal Australasian College Of Physicians, Paediatric and Child Health Division, Australia 2020."
+        },
+        {
+          "degree": "Masters in Paediatrics",
+          "institution": "National Board of examination, India."
+        },
+        {
+          "degree": "Bachelor of Medicine / Bachelor of Surgery",
+          "institution": "G.S.V.M. Medical college of Kanpur, India, 2006."
+        }
+      ],
+      "special_interests": [
+        "Autism, ADHD, Hyperlexia (Kids who read early and are self-taught readers)",
+        "Learing disorder",
+        "Constipation",
+        "Neonates",
+        "Feeding issues in neonates"
+      ],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr. Rivniz Mehrabady",
+      "speciality": "Geriatrician",
+      "practitioner_type": "Doctor",
+      "bio": "Dr. Rivniz Mehrabady Is A Geriatrician Based In Wollongong, Specializing In The Care Of Older Adults. Having Completed His Medical Degree And Advanced Training In Geriatric Medicine. Dr. Mehrabady Has Amassed Extensive Expertise In Managing The Unique Healthcare Needs Of Seniors, Including Those With Complex Medical Conditions And Disabilities. Dr. Mehrabady takes a patient-centered approach to care, tailoring treatment plans to each individual’s specific circumstances, medical history, and goals. Recognizing that aging involves not only medical issues but also social, psychological, and functional aspects, he adopts a holistic approach in his practice. In addition to providing exceptional clinical care, Dr. Mehrabady is actively engaged in research and education. He remains abreast of the latest advancements and best practices, ensuring his patients receive the most up-to-date and effective treatments available. Known for his compassionate and empathetic nature, Dr. Mehrabady establishes meaningful connections with his patients and their families. He believes that effective communication and shared decision-making are vital components of providing high-quality care. his ability to explain complex medical concepts in clear and simple terms ensures his patients are well-informed and actively involved in their healthcare journey.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Lina Baytieh",
+      "speciality": "Clinical Dietitian",
+      "practitioner_type": "Allied Health",
+      "bio": "Lina Baytieh is a clinical dietitian with over 20 years’ experience. She has worked in varied areas of nutrition and dietetics nationally and internationally, including hospital (in Australia and the UK), community (Australia and UK), outreach (Australia and UK), and private practice (Italy), having undertaken roles such as sole therapist positions (Australia and UK), locum positions (UK), and consultancy work (Italy). Her strength is clinical dietetics in hospital and private practice. She has worked clinically in many varied nutrition and dietetics specialities although she sees herself as a generalist specialist with a focus on applied medical nutrition, nutrition through the ages, and macro- and micro-nutrient profiles in health and disease, and wound healing.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [
+        "Cardiovascular and respiratory disease",
+        "Endocrinology (comprising all diabetes types, also gestational diabetes)",
+        "Gastroenterology",
+        "General paediatrics",
+        "Aged care",
+        "Renal disease",
+        "Rheumatology",
+        "Trauma and wound healing",
+        "General medicine",
+        "Nutrition support",
+        "Surgery",
+        "Burns",
+        "Intensive care",
+        "TPN",
+        "Hepatology",
+        "Transplants"
+      ],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": [
+        "Arabic",
+        "Italian",
+        "English"
+      ]
+    },
+    {
+      "name": "Mr Sumesh Kunhiraman",
+      "speciality": "Audiologist",
+      "practitioner_type": "Allied Health",
+      "bio": "With 17 years of experience in the field of audiology, I have dedicated my career to helping people improve their quality of life through better hearing. My passion for hearing care has driven me to take on diverse roles in the industry, from training and mentoring aspiring audiologists to managing teams of professionals across various settings. Throughout my journey, I've had the privilege of working with individuals from all walks of life, tailoring personalized solutions to meet their unique hearing needs. My extensive experience and commitment to excellence ensure that every patient receives the highest level of care and support. My goal is to combine this expertise with a genuine desire to make a difference, empowering people to rediscover the sounds that matter most to them.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr Yaroslav Mayorchak",
+      "speciality": "Cardiothoracic Surgeon",
+      "practitioner_type": "Doctor",
+      "bio": "Dr Yaroslav Mayorchak is an experienced Cardiothoracic Surgeon based in Australia, with over 12 years of practice in the Sydney West region. He specializes in minimally invasive thoracoscopic and single port lung and heart surgery and has a practice located in Kingswood. Dr Mayorchak is associated with several hospitals, including Nepean Private, Nepean public, Hawkesbury, Norwest Private, Westmead public, and Orange Private Hospital. He provides a comprehensive range of services for the management of lung cancer, cardiac devices and CRT therapy, as well as the treatment of heart and aortic diseases. With his expertise in the field, Dr Mayorchak offers advanced surgical procedures using the latest techniques and technologies to provide the best possible outcomes for his patients. He has a particular interest in minimally invasive surgeries that reduce patient discomfort, shorten recovery times, and minimize scarring. Dr Mayorchak is committed to providing personalized care for his patients, working closely with them and their families to develop customized treatment plans that meet their individual needs. He is known for his compassionate bedside manner and his dedication to ensuring the highest level of patient satisfaction.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr Yana Oborska",
+      "speciality": "Aesthetic Doctor",
+      "practitioner_type": "Doctor",
+      "bio": "Dr Yana Oborska – MBBS (Hons), Aesthetic Doctor. Dr Yana Oborska is a qualified medical doctor (MBBS Hons) with a special interest in non-surgical aesthetic medicine. She is passionate about helping patients feel confident in their own skin by offering safe, evidence-based treatments tailored to individual needs. Dr Yana provides a range of minimally invasive procedures designed to restore, rejuvenate, and enhance natural features while maintaining a subtle and refreshed appearance. Her holistic, patient-centred approach ensures each treatment plan is aligned with personal goals and skin health. She is available for appointments on Wednesdays and Saturdays.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [
+        "Anti-wrinkle injections",
+        "Platelet Rich Plasma (PRP) therapy for skin and hair rejuvenation",
+        "Skin needling (microneedling)",
+        "Skin boosters and bioremodelling",
+        "Treatment of hyperhidrosis (excessive sweating)",
+        "Removal of benign skin lesions",
+        "Aesthetic consultations for ageing concerns, hair thinning, and facial volume loss"
+      ],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    },
+    {
+      "name": "Dr Alexia Pape",
+      "speciality": "Endocrinologist",
+      "practitioner_type": "Doctor",
+      "bio": "Dr Alexia Pape – FRACP (University of Vienna - Austria), Endocrinologist. Dr Alexia Pape provides personalized treatment plans and advice on all endocrine conditions.",
+      "education": [],
+      "special_interests": [],
+      "expertise_in": [
+        "Diabetes",
+        "Thyroid And Parathyroid Problems",
+        "Osteoporosis",
+        "Pcos",
+        "Pituitary",
+        "Adrenal And Other Endocrine Problems",
+        "Menopausal Symptoms",
+        "Transgender Care",
+        "Hypertension",
+        "Hyperlipidaemia"
+      ],
+      "professional_affiliations": [],
+      "practice_info": {},
+      "languages": []
+    }
+  ]
+}
