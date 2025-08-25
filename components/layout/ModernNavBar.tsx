@@ -20,9 +20,12 @@ export default function ModernNavbar() {
   // Effect to detect scroll position for styling changes
   useEffect(() => {
     const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
+      // The scroll threshold is now very small to trigger the effect almost immediately
+      setIsScrolled(window.scrollY > 1);
     };
     window.addEventListener('scroll', handleScroll);
+    // Set initial state on mount
+    handleScroll();
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -32,28 +35,29 @@ export default function ModernNavbar() {
         initial={{ y: -100 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.5, ease: "easeInOut" }}
-        className={cn(
-          "fixed top-0 inset-x-0 max-w-7xl mx-auto z-50 transition-all duration-300",
-          isScrolled ? "top-4" : "top-6"
-        )}
+        className="w-full"
       >
         <motion.div
           layout
           transition={{ duration: 0.3, ease: "easeInOut" }}
           className={cn(
-            "w-full mx-auto px-6 py-3 rounded-full transition-all duration-300",
+            "w-full max-w-7xl mx-auto px-6 transition-all duration-300",
             isScrolled
-              ? "bg-white/90 shadow-lg backdrop-blur-lg"
-              : "bg-black/20 backdrop-blur-sm"
+              ? "py-2 rounded-full mt-2 bg-white/90 shadow-lg backdrop-blur-lg"
+              : "py-4 bg-transparent"
           )}
         >
           <div className="flex items-center justify-between">
             {/* Logo */}
-            <Link href="/" className={cn(
-              "font-bold text-xl transition-colors duration-300",
-              isScrolled ? "text-blue-900" : "text-white"
-            )}>
-              ISH
+            <Link href="/" className="flex items-center">
+              <Image 
+                src="/logo1.png" 
+                alt="Illawarra Specialist Healthcare Logo"
+                width={isScrolled ? 140 : 160}
+                height={40}
+                className="transition-all duration-300"
+                priority
+              />
             </Link>
 
             {/* Desktop Navigation Links */}
@@ -73,7 +77,10 @@ export default function ModernNavbar() {
                   {active === item.name && (
                     <motion.div
                       layoutId="active-pill"
-                      className="absolute inset-0 bg-blue-500/20 rounded-full"
+                      className={cn(
+                        "absolute inset-0 rounded-full",
+                        isScrolled ? "bg-blue-500/20" : "bg-white/20"
+                      )}
                       style={{ borderRadius: 9999 }}
                       transition={{ duration: 0.6, type: "spring", stiffness: 120, damping: 20 }}
                     />

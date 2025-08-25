@@ -2,17 +2,23 @@
 import React from 'react';
 import ModernNavbar from '@/components/layout/ModernNavBar';
 import HeroBanner from '@/components/sections/HeroBanner';
-import GridBackground from '@/components/ui/GridBackground'; // Import the new component
+import GridBackground from '@/components/ui/GridBackground';
+import TopBar from '@/components/layout/TopBar'; // Import the new component
 
 /**
  * This is the main homepage of the application.
- * It assembles the primary components like the navbar, hero section, and the new grid background.
+ * It assembles the primary components like the top bar, navbar, hero section, and grid background.
  */
 export default function HomePage() {
   return (
     <main className="font-sans">
-      {/* The modern, animated navbar */}
-      <ModernNavbar />
+      <header className="fixed top-0 w-full z-50">
+        {/* The new top bar */}
+        <TopBar />
+        
+        {/* The modern, animated navbar */}
+        <ModernNavbar />
+      </header>
       
       {/* The hero banner with the Sparkles animation */}
       <HeroBanner />
