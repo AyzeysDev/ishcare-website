@@ -19,21 +19,12 @@ export default function HeroBanner() {
         style={{ backgroundImage: "url('/images/image3.jpeg')" }}
       />
       
-      {/* Corner Grid Pattern - Only in corners */}
+      {/* Left Side Grid Pattern - Only on left side */}
       <div className="absolute inset-0 h-full w-full pointer-events-none">
         {/* Top-left corner grid */}
         <div
           className={cn(
-            "absolute top-0 left-0 w-32 h-32",
-            "[background-size:40px_40px]",
-            "[background-image:linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)]"
-          )}
-        />
-        
-        {/* Top-right corner grid */}
-        <div
-          className={cn(
-            "absolute top-0 right-0 w-32 h-32",
+            "absolute top-0 left-0 w-64 h-64",
             "[background-size:40px_40px]",
             "[background-image:linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)]"
           )}
@@ -42,16 +33,7 @@ export default function HeroBanner() {
         {/* Bottom-left corner grid */}
         <div
           className={cn(
-            "absolute bottom-0 left-0 w-32 h-32",
-            "[background-size:40px_40px]",
-            "[background-image:linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)]"
-          )}
-        />
-        
-        {/* Bottom-right corner grid */}
-        <div
-          className={cn(
-            "absolute bottom-0 right-0 w-32 h-32",
+            "absolute bottom-0 left-0 w-64 h-64",
             "[background-size:40px_40px]",
             "[background-image:linear-gradient(to_right,#e5e7eb_1px,transparent_1px),linear-gradient(to_bottom,#e5e7eb_1px,transparent_1px)]"
           )}
@@ -101,9 +83,9 @@ export default function HeroBanner() {
           <Image
             src="/images/banner-1.png"
             alt="Illawarra Specialist Healthcare Nurse"
-            width={550}
-            height={550}
-            className="h-auto w-full max-w-sm md:max-w-md"
+            width={650}
+            height={650}
+            className="h-auto w-full max-w-md md:max-w-lg lg:max-w-xl"
             priority
           />
         </div>
