@@ -44,7 +44,7 @@ export default function ModernNavbar() {
             "w-full max-w-7xl mx-auto px-6 transition-all duration-300",
             isScrolled
               ? "py-2 rounded-full mt-2 bg-white/90 shadow-lg backdrop-blur-lg"
-              : "py-4 bg-transparent"
+              : "py-4 rounded-full mt-2 bg-white/90 shadow-lg backdrop-blur-lg"
           )}
         >
           <div className="flex items-center justify-between">
@@ -70,8 +70,8 @@ export default function ModernNavbar() {
                   className={cn(
                     "relative px-4 py-2 text-sm font-medium transition-colors duration-300",
                     active === item.name
-                      ? (isScrolled ? "text-blue-900" : "text-white")
-                      : (isScrolled ? "text-gray-600 hover:text-blue-900" : "text-gray-300 hover:text-white")
+                      ? "text-blue-900"
+                      : "text-gray-600 hover:text-blue-900"
                   )}
                 >
                   {active === item.name && (
@@ -79,7 +79,7 @@ export default function ModernNavbar() {
                       layoutId="active-pill"
                       className={cn(
                         "absolute inset-0 rounded-full",
-                        isScrolled ? "bg-blue-500/20" : "bg-white/20"
+                        "bg-blue-500/20"
                       )}
                       style={{ borderRadius: 9999 }}
                       transition={{ duration: 0.6, type: "spring", stiffness: 120, damping: 20 }}
@@ -100,7 +100,7 @@ export default function ModernNavbar() {
             {/* Mobile Menu Button */}
             <div className="md:hidden">
               <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="focus:outline-none">
-                <svg className={cn("w-6 h-6 transition-colors duration-300", isScrolled ? "text-gray-800" : "text-white")} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <svg className="w-6 h-6 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={isMobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16m-7 6h7"}></path>
                 </svg>
               </button>
